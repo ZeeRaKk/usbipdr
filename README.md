@@ -7,6 +7,7 @@ This repository provides a Rust-based client and server implementation of USBIP 
 Thanks to the following projects that inspired this work:
 - [Usbipd-win](https://github.com/dorssel/usbipd-win)
 - [Usbip](https://github.com/jiegec/usbip)
+- [usbipd-libusb](https://github.com/raydudu/usbipd-libusb)
 
 ## Current Status
 
