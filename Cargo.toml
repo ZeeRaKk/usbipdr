@@ -1,0 +1,19 @@
+[package]
+name = "usbipd"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = "4.5.39"
+usbip = "0.7.1"
+
+
+
+#https://github.com/johnthagen/min-sized-rust
+[profile.release]
+lto = true
+codegen-units = 1
+panic = 'abort'
+strip = true
+#opt-level = 'z' # only have smaller size after strip
+rpath = true
